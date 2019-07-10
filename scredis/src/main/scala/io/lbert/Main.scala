@@ -8,5 +8,6 @@ object Main extends App {
 
   val redis = Redis()
 
-//  val a = redis.get("key")
+  val a = redis.get("key")
+  val b = redis.set("key", "bar")
 }
